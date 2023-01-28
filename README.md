@@ -6,7 +6,7 @@ This package contains additional HAL drivers for use in Z-Stack product developm
 Provides helper macros for GPIO ports configuration / manipulation
 Includes file hal_gpio_defs.h
 
-Based on zstack-lib I2C driver code
+Based on zstack-lib code
 https://github.com/diyruz/zstack-lib
 
 ## Software I2C master driver
