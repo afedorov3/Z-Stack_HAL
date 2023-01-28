@@ -14,10 +14,11 @@ Driver proves software (Bit-banging) implementation of Philips I2C master interf
 Includes hal_i2c.c, hal_i2c.h files.
 
 With default settings and 32MHz core clock SCL frequency reaches 70kHz.
+No additional pull-up required on short / light bus.
 
 By default SCL pin is P0.5, SDA pin is P0.6.
-Can be reassigned by defining global preprocessor symbols
-  OCM_SCL_PORT
-  OCM_SCL_PIN
-  OCM_SDA_PORT
-  OCM_SDA_PIN
+Can be reassigned by defining global preprocessor symbols  
+  OCM_SCL_PORT  
+  OCM_SCL_PIN  
+  OCM_SDA_PORT  
+  OCM_SDA_PIN  
