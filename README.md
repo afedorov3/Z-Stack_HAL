@@ -3,20 +3,20 @@
 This package contains additional HAL drivers for use in Z-Stack product development
 
 ## GPIO helper macros
-Provides helper macros for GPIO ports configuration / manipulation
+Provides helper macros for GPIO ports configuration / manipulation  
 Includes file hal_gpio_defs.h
 
-Based on zstack-lib code
+Based on zstack-lib code  
 https://github.com/diyruz/zstack-lib
 
 ## Software I2C master driver
-Driver proves software (Bit-banging) implementation of Philips I2C master interface.
+Provides software (Bit-banging) implementation of Philips I2C master interface.  
 Includes hal_i2c.c, hal_i2c.h files.
 
-With default settings and 32MHz core clock SCL frequency reaches 70kHz.
+With default settings and 32MHz core clock SCL frequency reaches 70kHz.  
 No additional pull-up required on short / light bus.
 
-By default SCL pin is P0.5, SDA pin is P0.6.
+By default SCL pin is P0.5, SDA pin is P0.6.  
 Can be reassigned by defining global preprocessor symbols  
   OCM_SCL_PORT  
   OCM_SCL_PIN  
